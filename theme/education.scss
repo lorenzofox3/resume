@@ -1,0 +1,227 @@
+$dark-color: #333333;
+$head-size: 90px;
+$eye-diameter: 15px;
+$blue: #0a0380;
+.diploma {
+  padding: 20px;
+  font-size: 0.9em;
+  box-shadow: 2px 2px 5px 1px rgba(30, 30, 30, 0.7);
+  background: #ecdfa6;
+  font-family: 'Cinzel', serif;
+  border: 10px solid $dark-color;
+  position: relative;
+  margin-right: 10px;
+
+  .signature {
+    font-family: cursive;
+    font-size: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    margin: 0;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    text-decoration: underline;
+  }
+
+  p {
+    margin: 1em;
+  }
+
+  ul {
+    list-style: square;
+    padding-left: 3em;
+    line-height: 150%;
+  }
+
+  h2 {
+    color: $dark-color;
+    text-align: center;
+
+  }
+
+  img {
+    border: 10px solid #a9000d;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    box-shadow: 0 0 5px 1px $dark-color;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  img:hover {
+    transform: rotate(0);
+    -webkit-transform: rotate(0deg);
+  }
+
+}
+
+.head {
+  border-radius: 50%;
+  border: 1px solid black;
+  background: #ffe3b6;
+  width: $head-size;
+  height: $head-size;
+  padding: 10px;
+  position: relative;
+  top: 200px;
+}
+
+.pupil {
+  padding: 1em;
+  min-width: 120px;
+
+  .eye {
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid $dark-color;
+    background: white;
+    width: $eye-diameter;
+    height: $eye-diameter;
+    display: inline-block;
+    text-align: center;
+    margin-top: -35px;
+    position: relative;
+    top: -35px;
+    box-shadow: 2px 0 2px 0 $dark-color;
+    animation: eyes 1.5s infinite;
+    -webkit-animation: eyes 1.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+
+  .nose {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    border: 1px solid $dark-color;
+    border-top-width: 0;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    box-shadow: 1px 0 2px 0 $dark-color;
+  }
+
+  .mouth {
+    width: $eye-diameter;
+    border: 2px solid #a9000d;
+    background: black;
+    position: relative;
+    left: 30px;
+    top: -25px;
+    color: #a9000d;
+    text-align: center;
+    animation: mouth 1.5s infinite;
+    -webkit-animation: mouth 1.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+
+  .hat {
+    width: 80px;
+    height: 60px;
+    position: relative;
+    padding: 0 20%;
+    border-top: 4px solid $blue;
+    left: -7px;
+    -webkit-backface-visibility: hidden;
+    animation: hat 1.5s infinite;
+    -webkit-animation: hat 1.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+    .inner-hat {
+      display: inline-block;
+      background: $blue;
+      height: 40px;
+      width: 100%;
+      border-bottom: 1px solid $dark-color;
+      box-shadow: 0 1px 2px 0 $dark-color;
+
+    }
+  }
+
+}
+
+@keyframes hat {
+  0% {
+    top: -300px;
+
+  }
+  80% {
+    top: -40px;
+  }
+
+  100% {
+    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+    top: -37px;
+  }
+}
+
+@-webkit-keyframes hat {
+  0% {
+    top: -300px;
+
+  }
+  80% {
+    top: -40px;
+  }
+
+  100% {
+    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+    top: -37px;
+  }
+}
+
+@keyframes eyes {
+  0% {
+    font-size: 0.6em;
+  }
+
+  100% {
+    font-size: 1em;
+
+  }
+}
+
+@-webkit-keyframes eyes {
+  0% {
+    font-size: 0.6em;
+  }
+
+  100% {
+    font-size: 1em;
+  }
+}
+
+@keyframes mouth {
+  0% {
+    height: 2px;
+  }
+
+  100% {
+    height: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+}
+
+@-webkit-keyframes mouth {
+  0% {
+    height: 2px;
+  }
+
+  100% {
+    height: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+}
+

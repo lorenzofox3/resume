@@ -1,0 +1,113 @@
+@import './education';
+
+body {
+  color: #333333;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: 'icons';
+  src: url('./fonts/icomoon.eot');
+  src: url('./fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('./fonts/icomoon.woff') format('woff'), url('./fonts/icomoon.ttf') format('truetype'), url('./fonts/icomoon.svg#icons') format('svg');
+}
+
+.icon {
+  font-family: 'icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+}
+
+.linked-in:before {
+  content: "\e602";
+}
+
+.linked-in:hover {
+  color: #166aae;
+}
+
+.github:before {
+  content: "\e601";
+}
+
+.email:before {
+  content: "\e600";
+}
+
+.email:hover {
+  color: #c13626;
+}
+
+.github:hover {
+  color: #262727;
+}
+
+.main-section {
+  flex-grow: 1;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+header {
+  text-align: center;
+
+  li {
+    display: inline-block;
+    padding: 4px 20px;
+  }
+
+  li:not(:last-child) {
+    border-right: 2px solid #333333;
+  }
+
+  a {
+    font-size: 1.4em;
+  }
+}
+
+footer {
+
+  text-align: center;
+  font-size: 1.4em;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    color: #333333;
+    padding: 5px;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    transition: border-radius 0.5s;
+  }
+
+  a:hover {
+    border-radius: 0;
+  }
+}
+
+.main-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

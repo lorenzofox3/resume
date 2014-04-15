@@ -1,0 +1,256 @@
+.diploma {
+  padding: 20px;
+  font-size: 0.9em;
+  box-shadow: 2px 2px 5px 1px rgba(30, 30, 30, 0.7);
+  background: #ecdfa6;
+  font-family: "Cinzel", serif;
+  border: 10px solid #333333;
+  position: relative;
+  margin-right: 10px; }
+  .diploma .signature {
+    font-family: cursive;
+    font-size: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    margin: 0;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    text-decoration: underline; }
+  .diploma p {
+    margin: 1em; }
+  .diploma ul {
+    list-style: square;
+    padding-left: 3em;
+    line-height: 150%; }
+  .diploma h2 {
+    color: #333333;
+    text-align: center; }
+  .diploma img {
+    border: 10px solid #a9000d;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    box-shadow: 0 0 5px 1px #333333;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transition: all 0.5s;
+    cursor: pointer; }
+  .diploma img:hover {
+    transform: rotate(0);
+    -webkit-transform: rotate(0deg); }
+
+.head {
+  border-radius: 50%;
+  border: 1px solid black;
+  background: #ffe3b6;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  position: relative;
+  top: 200px; }
+
+.pupil {
+  padding: 1em;
+  min-width: 120px; }
+  .pupil .eye {
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    background: white;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    margin-top: -35px;
+    position: relative;
+    top: -35px;
+    box-shadow: 2px 0 2px 0 #333333;
+    animation: eyes 1.5s infinite;
+    -webkit-animation: eyes 1.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate; }
+  .pupil .nose {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    border: 1px solid #333333;
+    border-top-width: 0;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    box-shadow: 1px 0 2px 0 #333333; }
+  .pupil .mouth {
+    width: 15px;
+    border: 2px solid #a9000d;
+    background: black;
+    position: relative;
+    left: 30px;
+    top: -25px;
+    color: #a9000d;
+    text-align: center;
+    animation: mouth 1.5s infinite;
+    -webkit-animation: mouth 1.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate; }
+  .pupil .hat {
+    width: 80px;
+    height: 60px;
+    position: relative;
+    padding: 0 20%;
+    border-top: 4px solid #0a0380;
+    left: -7px;
+    -webkit-backface-visibility: hidden;
+    animation: hat 1.5s infinite;
+    -webkit-animation: hat 1.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate; }
+    .pupil .hat .inner-hat {
+      display: inline-block;
+      background: #0a0380;
+      height: 40px;
+      width: 100%;
+      border-bottom: 1px solid #333333;
+      box-shadow: 0 1px 2px 0 #333333; }
+
+@keyframes hat {
+  0% {
+    top: -300px; }
+
+  80% {
+    top: -40px; }
+
+  100% {
+    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+    top: -37px; } }
+
+@-webkit-keyframes hat {
+  0% {
+    top: -300px; }
+
+  80% {
+    top: -40px; }
+
+  100% {
+    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+    top: -37px; } }
+
+@keyframes eyes {
+  0% {
+    font-size: 0.6em; }
+
+  100% {
+    font-size: 1em; } }
+
+@-webkit-keyframes eyes {
+  0% {
+    font-size: 0.6em; }
+
+  100% {
+    font-size: 1em; } }
+
+@keyframes mouth {
+  0% {
+    height: 2px; }
+
+  100% {
+    height: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; } }
+
+@-webkit-keyframes mouth {
+  0% {
+    height: 2px; }
+
+  100% {
+    height: 10px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; } }
+
+body {
+  color: #333333;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+@font-face {
+  font-family: 'icons';
+  src: url("./fonts/icomoon.eot");
+  src: url("./fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("./fonts/icomoon.woff") format("woff"), url("./fonts/icomoon.ttf") format("truetype"), url("./fonts/icomoon.svg#icons") format("svg"); }
+
+.icon {
+  font-family: 'icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none; }
+
+.linked-in:before {
+  content: "\e602"; }
+
+.linked-in:hover {
+  color: #166aae; }
+
+.github:before {
+  content: "\e601"; }
+
+.email:before {
+  content: "\e600"; }
+
+.email:hover {
+  color: #c13626; }
+
+.github:hover {
+  color: #262727; }
+
+.main-section {
+  flex-grow: 1;
+  display: flex; }
+
+ul {
+  list-style: none;
+  padding-left: 0; }
+
+header {
+  text-align: center; }
+  header li {
+    display: inline-block;
+    padding: 4px 20px; }
+  header li:not(:last-child) {
+    border-right: 2px solid #333333; }
+  header a {
+    font-size: 1.4em; }
+
+footer {
+  text-align: center;
+  font-size: 1.4em; }
+  footer li {
+    display: inline-block; }
+  footer a {
+    color: #333333;
+    padding: 5px;
+    border: 2px solid #333333;
+    border-radius: 50%;
+    transition: border-radius 0.5s; }
+  footer a:hover {
+    border-radius: 0; }
+
+.main-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
