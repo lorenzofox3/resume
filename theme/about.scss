@@ -1,0 +1,51 @@
+.about{
+  background: #d7e5f4;
+}
+
+section {
+  padding: 20px;
+  img {
+    border: 1px solid #333333;
+  }
+}
+
+dl {
+  margin: 10px;
+}
+
+dt {
+  background: #f0f4ff;
+  font-size: 1.1em;
+  padding: 5px 3px;
+  font-weight: bold;
+  color: #3e4251;
+  clear: right;
+}
+
+dd {
+  padding: 5px 5px 5px 20px;
+  margin: 0;
+}
+
+.skills {
+  flex-grow: 1;
+  ul {
+    margin: 5px;
+    padding-left: 2em;
+    list-style: square;
+  }
+
+  em {
+    color: #166aae;
+    font-weight: bold;
+    text-shadow: 1px 0 $dark-color;
+  }
+
+  p {
+    margin: 0.5em 0;
+  }
+}
+
+.identity {
+  min-width: 20%;
+}

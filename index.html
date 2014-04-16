@@ -2,56 +2,88 @@
 <html>
 <head>
     <link rel="stylesheet" href="theme/theme.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Cinzel:700,400' rel='stylesheet' type='text/css'>
-    <title>Laurent RENARD resume</title>
+    <link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
+    <title>Laurent RENARD resume -About-</title>
 </head>
 <body>
 <div class="main-container">
     <header>
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Education</a></li>
+                <li><a class="selected" href="#">About</a></li>
+                <li><a href="./education.html">Education</a></li>
             </ul>
         </nav>
     </header>
-    <section class="main-section">
-        <div class="pupil">
-            <div class="head">
-                <div class="hat">
-                    <div class="inner-hat"></div>
-                </div>
-                <div class="eye">0</div>
-                <div class="eye">0</div>
-                <div class="nose"></div>
-                <div class="mouth">-</div>
-            </div>
-        </div>
-        <div class="diploma">
-            <h2>2008-2012 French Engineering school Centrale Lyon</h2>
+    <div class="main-section about">
+        <section class="identity">
+            <img src="profile.jpg" alt="profile picture"/>
+            <dl>
+                <dt>Name:</dt>
+                <dd>RENARD laurent</dd>
+                <dt>Occupation:</dt>
+                <dd>web developer</dd>
+                <dt>Birth timestamp:</dt>
+                <dd>548528400000</dd>
+                <dt>Gender:</dt>
+                <dd>male</dd>
+                <dt>Nationality:</dt>
+                <dd>Belgian</dd>
+                <dt>Location:</dt>
+                <dd>Hanoi, Vietnam</dd>
+            </dl>
+        </section>
+        <section class="skills">
+            <dl>
+                <dt>Favorite weapons:</dt>
+                <dd>
+                    <p>
+                        I like any technology related to <em>web development</em> and to the front end eco system
+                        (particularly
+                        to <em>Javascript</em>).
+                    </p>
+                    <ul>
+                        <li>I master popular VCS <em>Git</em></li>
+                        <li>I use dominant build tools <em>Gulp</em>, <em>Grunt</em>, <em>Nodejs</em></li>
+                        <li>I write efficient unit (or regression) tests using <em>Karma</em>, <em>Mocha</em></li>
+                        <li>I have written few modules for the popular MV* framework <em>Angularjs</em></li>
+                    </ul>
+                    <p>
+                        Aside of this I regularly write application with the <em>Nodejs</em> platform whose paradigm
+                        fits me
+                        well.
+                    </p>
 
-            <p>Centrale Lyon is one of the top 10 French engineering school and gives a generalist formation to its
-                student
-                including many different fields</p>
-            <ul>
-                <li>civil engineering</li>
-                <li>mechanic</li>
-                <li>chemistry</li>
-                <li>computer science</li>
-                <li>...</li>
-            </ul>
+                    <p>
+                        I can also work with different types of database (SQL or NoSQL) and have a certification from
+                        <em>Mongodb</em> university (M101JS).
+                    </p>
+                </dd>
+                <dt>Concerns and methodology</dt>
+                <dd>
+                    <p>It has always been important for me to write "good" code and set up efficient workflow. When I
+                        write code I always try to focus on:</p>
+                    <ul>
+                        <li><em>modular</em> code to avoid coupling between different components</li>
+                        <li><em>robust</em> code by writing <em>unit tests</em> even for the front end part (often using
+                            a TDD approach)
+                        </li>
+                        <li><em>automate</em> repetitive tasks by trying to get the best from build tools</li>
+                        <li><em>Performances</em> and <em>scalability</em>. Performance and scalability should also be a
+                            top priority in
+                            my opinion and not something that "we will see later".
+                        </li>
+                    </ul>
+                </dd>
+                <dt>other</dt>
+                <dd>
+                    <p> During my previous working experiences I have also developed on other platforms such
+                        <em>Java</em>, <em>.NET</em>, <em>PHP</em> and I have worked in an Agile team (SCRUM)</p>
+                </dd>
 
-            <p>
-                Starting from the second year, you can select the courses you will attend, and the last year will be
-                dedicated to specialization. I chose <strong>computer science</strong> and <strong>software
-                engineering</strong>.
-            </p>
-            <p class="signature">Graduated</p>
-            <a href="#">
-                <img src="./logo.png" width="100" height="100" alt="centrale Lyon logo"/>
-            </a>
-        </div>
-    </section>
+            </dl>
+        </section>
+    </div>
     <footer>
         <ul>
             <li><a href="https://github.com/lorenzofox3" class="icon github"></a></li>

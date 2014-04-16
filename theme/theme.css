@@ -1,5 +1,4 @@
 .diploma {
-  padding: 20px;
   font-size: 0.9em;
   box-shadow: 2px 2px 5px 1px rgba(30, 30, 30, 0.7);
   background: #ecdfa6;
@@ -115,6 +114,29 @@
       border-bottom: 1px solid #333333;
       box-shadow: 0 1px 2px 0 #333333; }
 
+.corner {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #333333; }
+
+.top-left {
+  border-radius: 0 0 100% 0; }
+
+.top-right {
+  border-radius: 0 0 0 100%;
+  right: 0; }
+
+.bottom-left {
+  bottom: 0;
+  border-radius: 0 100% 0 0; }
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  border-radius: 100% 0 0 0; }
+
 @keyframes hat {
   0% {
     top: -300px; }
@@ -171,7 +193,47 @@
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%; } }
 
+.about {
+  background: #d7e5f4; }
+
+section {
+  padding: 20px; }
+  section img {
+    border: 1px solid #333333; }
+
+dl {
+  margin: 10px; }
+
+dt {
+  background: #f0f4ff;
+  font-size: 1.1em;
+  padding: 5px 3px;
+  font-weight: bold;
+  color: #3e4251;
+  clear: right; }
+
+dd {
+  padding: 5px 5px 5px 20px;
+  margin: 0; }
+
+.skills {
+  flex-grow: 1; }
+  .skills ul {
+    margin: 5px;
+    padding-left: 2em;
+    list-style: square; }
+  .skills em {
+    color: #166aae;
+    font-weight: bold;
+    text-shadow: 1px 0 #333333; }
+  .skills p {
+    margin: 0.5em 0; }
+
+.identity {
+  min-width: 20%; }
+
 body {
+  font-family: "Ruluko", sans-serif;
   color: #333333;
   position: fixed;
   top: 0;
@@ -220,7 +282,9 @@ a {
 
 .main-section {
   flex-grow: 1;
-  display: flex; }
+  display: flex;
+  overflow: auto;
+  margin: 0 20px; }
 
 ul {
   list-style: none;
@@ -235,6 +299,11 @@ header {
     border-right: 2px solid #333333; }
   header a {
     font-size: 1.4em; }
+  header a:hover {
+    text-decoration: underline; }
+
+.selected {
+  border-bottom: 2px solid #339bff; }
 
 footer {
   text-align: center;

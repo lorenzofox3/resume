@@ -3,7 +3,6 @@ $head-size: 90px;
 $eye-diameter: 15px;
 $blue: #0a0380;
 .diploma {
-  padding: 20px;
   font-size: 0.9em;
   box-shadow: 2px 2px 5px 1px rgba(30, 30, 30, 0.7);
   background: #ecdfa6;
@@ -146,6 +145,34 @@ $blue: #0a0380;
     }
   }
 
+}
+
+.corner {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: $dark-color;
+}
+
+.top-left {
+  border-radius: 0 0 100% 0;
+}
+
+.top-right {
+  border-radius: 0 0 0 100%;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  border-radius: 0 100% 0 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  border-radius: 100% 0 0 0;
 }
 
 @keyframes hat {
