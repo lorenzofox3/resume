@@ -1,0 +1,61 @@
+$blue: #339bff;
+ol {
+  list-style: none;
+}
+
+.experiences {
+
+  a {
+    color: #ff9119;
+    text-decoration: underline;
+  }
+
+  font-size: 1.2em;
+
+  h2 {
+    border-bottom: 2px solid $blue;
+    display: inline-block;
+    padding-bottom: 0.8em;
+    margin-bottom: 0.5em;
+  }
+
+  ul {
+    list-style: square;
+    margin-left: 1.3em;
+  }
+
+  em {
+    color: $blue;
+  }
+}
+
+.meta {
+  background-color: #f7f7f7;
+  background: linear-gradient(to right, #e5e5e5 0%, transparent 80%);
+  padding: 0.3em;
+  margin: 0;
+}
+
+iframe {
+  display: block;
+  margin: 1em auto;
+
+}
+
+.expandable {
+  display: none;
+  overflow: hidden;
+  transition: all 2s;
+  box-sizing: border-box;
+}
+
+.display {
+  display: inline;
+}
+
+#selector {
+  float: left;
+}
+
+
+

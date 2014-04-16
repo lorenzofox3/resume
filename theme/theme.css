@@ -232,6 +232,47 @@ dd {
 .identity {
   min-width: 20%; }
 
+ol {
+  list-style: none; }
+
+.experiences {
+  font-size: 1.2em; }
+  .experiences a {
+    color: #ff9119;
+    text-decoration: underline; }
+  .experiences h2 {
+    border-bottom: 2px solid #339bff;
+    display: inline-block;
+    padding-bottom: 0.8em;
+    margin-bottom: 0.5em; }
+  .experiences ul {
+    list-style: square;
+    margin-left: 1.3em; }
+  .experiences em {
+    color: #339bff; }
+
+.meta {
+  background-color: #f7f7f7;
+  background: linear-gradient(to right, #e5e5e5 0%, transparent 80%);
+  padding: 0.3em;
+  margin: 0; }
+
+iframe {
+  display: block;
+  margin: 1em auto; }
+
+.expandable {
+  display: none;
+  overflow: hidden;
+  transition: all 2s;
+  box-sizing: border-box; }
+
+.display {
+  display: inline; }
+
+#selector {
+  float: left; }
+
 body {
   font-family: "Ruluko", sans-serif;
   color: #333333;
@@ -291,7 +332,8 @@ ul {
   padding-left: 0; }
 
 header {
-  text-align: center; }
+  text-align: center;
+  flex-shrink: 0; }
   header li {
     display: inline-block;
     padding: 4px 20px; }
@@ -307,7 +349,8 @@ header {
 
 footer {
   text-align: center;
-  font-size: 1.4em; }
+  font-size: 1.4em;
+  flex-shrink: 0; }
   footer li {
     display: inline-block; }
   footer a {
@@ -323,3 +366,6 @@ footer {
   height: 100%;
   display: flex;
   flex-direction: column; }
+
+abbr {
+  border-bottom: 1px dotted #333333; }

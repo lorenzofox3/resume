@@ -1,5 +1,6 @@
 @import './education';
 @import './about';
+@import './experiences';
 
 body {
   font-family: 'Ruluko', sans-serif;
@@ -73,6 +74,7 @@ ul {
 
 header {
   text-align: center;
+  flex-shrink: 0;
 
   li {
     display: inline-block;
@@ -100,6 +102,7 @@ footer {
 
   text-align: center;
   font-size: 1.4em;
+  flex-shrink: 0;
 
   li {
     display: inline-block;
@@ -122,4 +125,8 @@ footer {
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+abbr {
+  border-bottom: 1px dotted $dark-color;
 }
