@@ -232,8 +232,14 @@ dd {
 .identity {
   min-width: 20%; }
 
-ol {
-  list-style: none; }
+.articles {
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  padding-left: 2em;
+  padding-right: 2em; }
 
 .experiences {
   font-size: 1.2em; }
@@ -264,14 +270,43 @@ iframe {
 .expandable {
   display: none;
   overflow: hidden;
-  transition: all 2s;
+  transition: all 1s;
   box-sizing: border-box; }
 
 .display {
-  display: inline; }
+  display: block;
+  opacity: 1; }
+
+.enter {
+  display: block !important;
+  opacity: 0 !important; }
 
 #selector {
-  float: left; }
+  float: left;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 20%;
+  min-width: 150px;
+  padding: 15px;
+  list-style: none; }
+  #selector li {
+    margin: 2em auto;
+    cursor: pointer;
+    padding: 0.5em;
+    border: 2px solid #e5e5e5;
+    text-align: center;
+    transition: all 0.5s; }
+  #selector li:hover {
+    border-color: #339bff; }
+  #selector li.selected {
+    background: #339bff !important;
+    border-color: #339bff !important;
+    -webkit-box-shadow: inset 0 0 10px 0 #333333;
+    -moz-box-shadow: inset 0 0 10px 0 #333333;
+    box-shadow: inset 0 0 10px 0 #333333;
+    color: white; }
 
 body {
   font-family: "Ruluko", sans-serif;

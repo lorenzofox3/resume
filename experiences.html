@@ -17,40 +17,44 @@
         </nav>
     </header>
     <div class="main-section experiences">
-        <ul id="selector">
-            <li>Leap</li>
-            <li>Amadeus1</li>
-            <li>Olivanim</li>
-            <li>Amadeus2</li>
-        </ul>
-        <ol>
+        <ol id="selector">
+            <li class="selected">Amadeus IT</li>
+            <li>Amadeus IT(intern)</li>
+            <li>Leap Energy</li>
+            <li>Freelance</li>
+        </ol>
+        <ol class="articles">
             <li class="expandable display">
                 <article>
-                    <h2>Leap Energy</h2>
+                    <h2>Amadeus IT</h2>
 
-                    <p class="meta">June 2010-July 2011, Kuala Lumpur, Malaysia</p>
+                    <p class="meta">January 2012-April 2014,Nice, France</p>
 
-                    <p><em>Software developer</em> for an oil & gas consulting company</p>
+                    <p><em>Web/Software developer</em></p>
 
-                    <p>My mission was to start the development of a software (Desktop) to help reservoir engineers in
-                        their job. I was then joined by other software developers and the company has now a dedicated
-                        development team.
-                        The mission specifically included:
+                    <p><em>Amadeus IT</em> is the biggest IT provider for travel industry in Europe and one of the
+                        biggest in the world. My mission there was to build a customisation framework. Amadeus IT
+                        develops standard web applications so that airlines, travel agencies, etc. can connect
+                        to their central system to perform booking, check availability and other business operations.
                     </p>
+
+                    <p>Some of the customers want to customize the standard applications. My team was in charge of
+                        developing a framework so that these customers could write code (components) to be injected in
+                        the standard web applications.
+                        These components were versioned and hosted into git repositories by our framework and served as
+                        a resource when activated so that the end user could enjoy the feature seamlessly compared to
+                        the traditional web applications. We also offered an online development environment for the
+                        customizers.
+                    </p>
+
                     <ul>
-                        <li>the development of the <em>algorithm</em> to forecast gas production based on the physics
-                            (helped
-                            by a
-                            reservoir engineer)
+                        <li>The core of the framework was developed in <em>Java</em></li>
+                        <li>The online environment web application was built in <em>Java</em> for the server side and in
+                            <a href="http://ariatemplates.com/">AriaTemplates</a> (in house MVC javascript Framework)
+                            for the client side
                         </li>
-                        <li>the development of a desktop <em>user interface</em> to increase engineer productivity</li>
+                        <li>My team was following the <em>SCRUM</em> methodology with 3 weeks release cycles</li>
                     </ul>
-                    <p>
-                        The software was built using <em>.NET</em> platform ( C# + WPF) around <em>MVVM</em> design
-                        pattern.
-                    </p>
-
-                    <p>You can find more detail about the <a href="http://dotcbm.com/">software</a></p>
                 </article>
             </li>
             <li class="expandable">
@@ -88,6 +92,35 @@
             </li>
             <li class="expandable">
                 <article>
+                    <h2>Leap Energy</h2>
+
+                    <p class="meta">June 2010-July 2011, Kuala Lumpur, Malaysia</p>
+
+                    <p><em>Software developer</em> for an oil & gas consulting company</p>
+
+                    <p>My mission was to start the development of a software (Desktop) to help reservoir engineers in
+                        their job. I was then joined by other software developers and the company has now a dedicated
+                        development team.
+                        The mission specifically included:
+                    </p>
+                    <ul>
+                        <li>the development of the <em>algorithm</em> to forecast gas production based on the physics
+                            (helped
+                            by a
+                            reservoir engineer)
+                        </li>
+                        <li>the development of a desktop <em>user interface</em> to increase engineer productivity</li>
+                    </ul>
+                    <p>
+                        The software was built using <em>.NET</em> platform ( C# + WPF) around <em>MVVM</em> design
+                        pattern.
+                    </p>
+
+                    <p>You can find more detail about the <a href="http://dotcbm.com/">software</a></p>
+                </article>
+            </li>
+            <li class="expandable">
+                <article>
                     <h2>Freelance</h2>
 
                     <p class="meta">April 2012-July 2012,Nice, France</p>
@@ -109,39 +142,6 @@
                     <p>
                         You can visit the <a href="http://olivanim.com/">web site</a>
                     </p>
-                </article>
-            </li>
-            <li class="expandable">
-                <article>
-                    <h2>Amadeus IT</h2>
-
-                    <p class="meta">January 2012-April 2014,Nice, France</p>
-
-                    <p><em>Web/Software developer</em></p>
-
-                    <p><em>Amadeus IT</em> is the biggest IT provider for travel industry in Europe and one of the
-                        biggest in the world. My mission there was to build a customisation framework. Amadeus IT
-                        develops standard web applications so that airlines, travel agencies, etc. can connect
-                        to their central system to perform booking, check availability and other business operations.
-                    </p>
-
-                    <p>Some of the customers want to customize the standard applications. My team was in charge of
-                        developing a framework so that these customers could write code (components) to be injected in
-                        the standard web applications.
-                        These components were versioned and hosted into git repositories by our framework and served as
-                        a resource when activated so that the end user could enjoy the feature seamlessly compared to
-                        the traditional web applications. We also offered an online development environment for the
-                        customizers.
-                    </p>
-
-                    <ul>
-                        <li>The core of the framework was developed in <em>Java</em></li>
-                        <li>The online environment web application was built in <em>Java</em> for the server side and in
-                            <a href="http://ariatemplates.com/">AriaTemplates</a> (in house MVC javascript Framework)
-                            for the client side
-                        </li>
-                        <li>My team was following the <em>SCRUM</em> methodology with 3 weeks release cycles</li>
-                    </ul>
                 </article>
             </li>
         </ol>
@@ -180,7 +180,17 @@
                 removeClass(value, 'display');
             });
 
+            handlers.forEach(function (value) {
+                removeClass(value, 'selected');
+            });
+
+            addClass(lis[index], 'enter');
             addClass(lis[index], 'display');
+
+            setTimeout(function () {
+                removeClass(lis[index], 'enter');
+            }, 100);
+            addClass(handlers[index], 'selected');
         };
 
         handlers.forEach(function (value, index) {

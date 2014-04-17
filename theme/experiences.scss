@@ -1,6 +1,12 @@
 $blue: #339bff;
-ol {
+.articles {
   list-style: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .experiences {
@@ -45,16 +51,53 @@ iframe {
 .expandable {
   display: none;
   overflow: hidden;
-  transition: all 2s;
+  transition: all 1s;
   box-sizing: border-box;
 }
 
 .display {
-  display: inline;
+  display: block;
+  opacity: 1;
+}
+
+.enter {
+  display: block !important;
+  opacity: 0 !important;
 }
 
 #selector {
   float: left;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 20%;
+  min-width: 150px;
+  padding: 15px;
+  list-style: none;
+
+  li {
+    margin: 2em auto;
+    cursor: pointer;
+    padding: 0.5em;
+    border: 2px solid #e5e5e5;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  li:hover {
+    border-color: $blue;
+  }
+
+  li.selected {
+    background: $blue !important;
+    border-color: $blue !important;
+    -webkit-box-shadow: inset 0 0 10px 0 $dark-color;
+    -moz-box-shadow: inset 0 0 10px 0 $dark-color;
+    box-shadow: inset 0 0 10px 0 $dark-color;
+    color: white;
+  }
+
 }
 
 
