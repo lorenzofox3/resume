@@ -308,6 +308,22 @@ iframe {
     box-shadow: inset 0 0 10px 0 #333333;
     color: white; }
 
+.main-section.open-source {
+  display: block; }
+
+.open-source {
+  font-size: 1.2em; }
+  .open-source a {
+    color: #ff9119;
+    text-decoration: underline; }
+  .open-source img {
+    display: block; }
+  .open-source h2 {
+    border-bottom: 2px solid #339bff;
+    display: inline-block;
+    padding-bottom: 0.8em;
+    margin-bottom: 0.5em; }
+
 body {
   font-family: "Ruluko", sans-serif;
   color: #333333;

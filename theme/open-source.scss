@@ -1,0 +1,23 @@
+.main-section.open-source {
+  display: block;
+}
+
+.open-source {
+  a {
+    color: #ff9119;
+    text-decoration: underline;
+  }
+
+  img{
+    display: block;
+  }
+
+  h2 {
+    border-bottom: 2px solid $blue;
+    display: inline-block;
+    padding-bottom: 0.8em;
+    margin-bottom: 0.5em;
+  }
+
+  font-size: 1.2em;
+}
