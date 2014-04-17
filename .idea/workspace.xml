@@ -28,7 +28,8 @@
           <file leaf-file-name="education.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/education.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1140">
+                <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1155">
+                  <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -37,7 +38,8 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="60" selection-start="446" selection-end="516" vertical-scroll-proportion="-0.0" vertical-offset="210" max-vertical-offset="1530">
+                <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1545">
+                  <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -46,44 +48,19 @@
           <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/theme/theme.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="406" column="0" selection-start="8099" selection-end="8099" vertical-scroll-proportion="0.0" vertical-offset="5499" max-vertical-offset="6180">
+                <state vertical-scroll-proportion="0.0" vertical-offset="5499" max-vertical-offset="6180">
+                  <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="experiences.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="experiences.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/experiences.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="188" column="0" selection-start="8694" selection-end="8694" vertical-scroll-proportion="0.6216617" vertical-offset="736" max-vertical-offset="1410">
-                  <folding>
-                    <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#ul#0;tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#ol#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#li#0;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#article#0;tag#li#0;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#p#2;tag#article#0;tag#li#0;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#p#3;tag#article#0;tag#li#0;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#article#0;tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#p#2;tag#article#0;tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#ul#0;tag#article#0;tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#p#3;tag#article#0;tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#article#0;tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#p#2;tag#article#0;tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#ul#0;tag#article#0;tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#p#3;tag#article#0;tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="tag#ul#0;tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                    <element signature="e#7839#7872#0" expanded="false" />
-                    <element signature="e#7974#8018#0" expanded="false" />
-                    <element signature="e#8068#8171#0" expanded="false" />
-                    <element signature="e#8222#8338#0" expanded="false" />
-                    <element signature="e#8915#9036#0" expanded="false" />
-                    <element signature="e#8973#9024#0" expanded="false" />
-                  </folding>
+                <state vertical-scroll-proportion="0.10440835" vertical-offset="0" max-vertical-offset="3150">
+                  <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -95,7 +72,8 @@
           <file leaf-file-name="education.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/theme/education.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="153" column="11" selection-start="3051" selection-end="3051" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="3900">
+                <state vertical-scroll-proportion="-0.0" vertical-offset="2295" max-vertical-offset="3900">
+                  <caret line="153" column="11" selection-start-line="153" selection-start-column="11" selection-end-line="153" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -104,7 +82,8 @@
           <file leaf-file-name="about.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/theme/about.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="37" column="0" selection-start="409" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="840">
+                <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="840">
+                  <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -113,16 +92,18 @@
           <file leaf-file-name="theme.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/theme/theme.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="17" selection-start="257" selection-end="257" vertical-scroll-proportion="57.666668" vertical-offset="1639" max-vertical-offset="2070">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="2070">
+                  <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="experiences.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="experiences.scss" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/theme/experiences.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="96" column="28" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.68229955" vertical-offset="989" max-vertical-offset="1650">
+                <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1650">
+                  <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -146,10 +127,10 @@
         <option value="$PROJECT_DIR$/partials/education.html" />
         <option value="$PROJECT_DIR$/theme/about.scss" />
         <option value="$PROJECT_DIR$/theme/theme.scss" />
+        <option value="$PROJECT_DIR$/theme/experiences.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/education.html" />
         <option value="$PROJECT_DIR$/experiences.html" />
-        <option value="$PROJECT_DIR$/theme/experiences.scss" />
       </list>
     </option>
   </component>
@@ -172,7 +153,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -216,60 +197,6 @@
               <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme.scss" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="experiences.scss" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resume" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about.scss" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -285,10 +212,19 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Laurent RENARD resume -About-_files" />
       <recent name="$PROJECT_DIR$/theme" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -299,30 +235,27 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="CHROME" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
     <list size="0" />
@@ -341,7 +274,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882273" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14513889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -353,7 +286,10 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -371,111 +307,165 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/education.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="28" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="30" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="13" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1815">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1530">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/theme/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="0" selection-start="5757" selection-end="5757" vertical-scroll-proportion="0.0" vertical-offset="3729" max-vertical-offset="4410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="406" column="0" selection-start="8099" selection-end="8099" vertical-scroll-proportion="0.0" vertical-offset="5499" max-vertical-offset="6180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/education.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="11" selection-start="3051" selection-end="3051" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="3900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="409" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="257" selection-end="257" vertical-scroll-proportion="57.666668" vertical-offset="1639" max-vertical-offset="2070">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="60" selection-start="446" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1530">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5499" max-vertical-offset="6180">
+          <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experiences.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="8694" selection-end="8694" vertical-scroll-proportion="0.6216617" vertical-offset="736" max-vertical-offset="1410">
-          <folding>
-            <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#nav#0;tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ol#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#0;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#article#0;tag#li#0;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#p#2;tag#article#0;tag#li#0;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#p#3;tag#article#0;tag#li#0;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#article#0;tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#p#2;tag#article#0;tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#article#0;tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#p#3;tag#article#0;tag#li#2;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#article#0;tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#p#2;tag#article#0;tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#article#0;tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#p#3;tag#article#0;tag#li#3;tag#ol#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="e#7839#7872#0" expanded="false" />
-            <element signature="e#7974#8018#0" expanded="false" />
-            <element signature="e#8068#8171#0" expanded="false" />
-            <element signature="e#8222#8338#0" expanded="false" />
-            <element signature="e#8915#9036#0" expanded="false" />
-            <element signature="e#8973#9024#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="3135">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/education.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="3900">
+          <caret line="153" column="11" selection-start-line="153" selection-start-column="11" selection-end-line="153" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="840">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="2070">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/theme/experiences.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="28" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.68229955" vertical-offset="989" max-vertical-offset="1650">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1650">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+          <caret line="51" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1035">
+          <caret line="43" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1815">
+          <caret line="64" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3729" max-vertical-offset="4410">
+          <caret line="288" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/education.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="3900">
+          <caret line="153" column="11" selection-start-line="153" selection-start-column="11" selection-end-line="153" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="840">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1639" max-vertical-offset="2070">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/experiences.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1650">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1545">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5499" max-vertical-offset="6180">
+          <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiences.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10440835" vertical-offset="0" max-vertical-offset="3150">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
           <folding />
         </state>
       </provider>
